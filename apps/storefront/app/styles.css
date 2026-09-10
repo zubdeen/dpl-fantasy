@@ -66,3 +66,26 @@ html,body{width:100%;min-width:0;overflow-x:hidden}
   .cta{margin:0 16px 48px;padding:28px 22px}
   .marketing footer{padding:22px 16px}
 }
+
+/* Landing page must not inherit the authenticated dashboard sidebar offset */
+main.marketing{width:100%;max-width:none;margin-left:0;margin-right:0;padding:0;overflow:hidden}
+.marketing .marketing-nav{padding-left:clamp(20px,6vw,88px);padding-right:clamp(20px,6vw,88px)}
+.marketing .hero{padding-left:clamp(20px,8vw,120px);padding-right:clamp(20px,8vw,120px)}
+.marketing .how,.marketing .feature-band{padding-left:clamp(20px,8vw,120px);padding-right:clamp(20px,8vw,120px)}
+.marketing .cta{margin-left:clamp(20px,8vw,120px);margin-right:clamp(20px,8vw,120px)}
+.marketing footer{padding-left:clamp(20px,6vw,88px);padding-right:clamp(20px,6vw,88px)}
+@media(max-width:900px){
+  main.marketing{margin:0;padding:0}
+  .marketing .marketing-nav{padding:14px 20px}
+  .marketing .hero{padding:36px 20px 60px}
+  .marketing .how,.marketing .feature-band{padding:64px 20px}
+  .marketing .cta{margin-left:20px;margin-right:20px}
+  .marketing footer{padding:24px 20px}
+}
+@media(max-width:520px){
+  .marketing .marketing-nav{padding:13px 16px}
+  .marketing .hero{padding:28px 16px 48px;gap:28px}
+  .marketing .how,.marketing .feature-band{padding:52px 16px}
+  .marketing .cta{margin-left:16px;margin-right:16px}
+  .marketing footer{padding:22px 16px}
+}
