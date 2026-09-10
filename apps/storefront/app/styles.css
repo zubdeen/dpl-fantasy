@@ -91,3 +91,4 @@ main.marketing{width:100%;max-width:none;margin-left:0;margin-right:0;padding:0;
 }
 
 .account-logout{border:0;background:none;color:#7891a9;display:grid;place-items:center;padding:6px;cursor:pointer}.account-logout:hover{color:var(--lime)}
+.login-label{display:block;margin:12px 0;color:#9db0c1;font:10px 'DM Mono';text-transform:uppercase;letter-spacing:.12em}.login-label input{margin:7px 0 0!important}.login-switch{display:block;width:100%;margin-top:18px;border:0;background:none;color:var(--lime);font-size:12px;text-align:center}
