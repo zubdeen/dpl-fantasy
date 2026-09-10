@@ -1,25 +1,6 @@
 export type Tier = "M1" | "M2" | "STAR" | "CORE" | "DEV";
 export type PowerUpId = "diamond" | "no_negative" | "wildcard" | "diamond_boost";
-export type PlayerScore = {
-  season?: string | null;
-  night?: number | null;
-  gamePoints: number;
-  wins: number;
-  losses: number;
-  overallPoints: number;
-  updatedAt: string | null;
-};
-export type Player = {
-  id: string;
-  name: string;
-  initials: string;
-  tier: Tier;
-  price: number;
-  form: number;
-  club: string;
-  color: string;
-  score?: PlayerScore;
-};
+export type Player = { id: string; name: string; initials: string; tier: Tier; price: number; form: number; club: string; color: string };
 export const SQUAD_BUDGET = 3400;
 export const SQUAD_SIZE = 8;
 export const STARTERS = 8;
