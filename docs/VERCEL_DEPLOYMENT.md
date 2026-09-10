@@ -41,5 +41,5 @@ Before switching traffic to the Vercel domains, verify the following:
 2. A signed-in user can open the sidebar account menu, confirm sign-out, and return to the landing page.
 3. The storefront can load players and the leaderboard from Supabase.
 4. The admin project rejects an account whose email does not match `NEXT_PUBLIC_ADMIN_EMAIL`.
-5. A new game-night deadline keeps locked-team transfers unavailable until `unlock_at`, then exposes exactly two transfers for that period.
+5. A new game-week deadline keeps locked-team transfers unavailable until `unlock_at`, then exposes exactly two transfers for that period.
 6. Vercel Preview and Production both have the same Supabase environment variables and the corresponding URLs are present in Supabase Auth settings.
