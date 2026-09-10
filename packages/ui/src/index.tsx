@@ -1,3 +1,3 @@
 import type { ReactNode } from "react";
-export function Logo() { return <div className="logo"><span>D</span><strong>DPL</strong></div>; }
+export function Logo() { return <div className="logo" aria-label="DPL Fantasy"><span className="logo-mark" aria-hidden="true"><svg viewBox="0 0 40 40" role="img"><path d="M20 2 36 11v18L20 38 4 29V11L20 2Z" fill="currentColor" /><path d="m12 11 8-4.5 8 4.5v18l-8 4.5-8-4.5V11Z" fill="#081321" /><path d="M16 13h4.8c4.2 0 6.7 2.6 6.7 7s-2.5 7-6.7 7H16V13Zm4.5 10.5c2.1 0 3.3-1.2 3.3-3.5s-1.2-3.5-3.3-3.5h-1v7h1Z" fill="currentColor" /></svg></span><strong>DPL <i>FANTASY</i></strong></div>; }
 export function SectionHeader({ eyebrow, title, description, action }: { eyebrow: string; title: string; description?: string; action?: ReactNode }) { return <div className="section-header"><div><p className="eyebrow">{eyebrow}</p><h1>{title}</h1>{description && <p className="description">{description}</p>}</div>{action}</div>; }
