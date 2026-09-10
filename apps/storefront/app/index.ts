@@ -6,7 +6,6 @@ export {
   TIER_COUNTS,
   TIER_LABELS,
   type Player,
-  type PlayerScore,
   type PowerUpId,
   type Tier,
   pointsMultiplier,
