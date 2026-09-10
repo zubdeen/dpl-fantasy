@@ -5,6 +5,9 @@ import { serverSupabase } from "@dpl/supabase/server";
 import { Logo } from "@dpl/ui";
 import "./styles.css";
 
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 export default async function Page() {
   const { data: { user } } = await (await serverSupabase()).auth.getUser();
   if (user) redirect("/dashboard");
