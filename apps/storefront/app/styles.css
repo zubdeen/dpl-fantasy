@@ -89,3 +89,5 @@ main.marketing{width:100%;max-width:none;margin-left:0;margin-right:0;padding:0;
   .marketing .cta{margin-left:16px;margin-right:16px}
   .marketing footer{padding:22px 16px}
 }
+
+.account-logout{border:0;background:none;color:#7891a9;display:grid;place-items:center;padding:6px;cursor:pointer}.account-logout:hover{color:var(--lime)}
